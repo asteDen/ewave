@@ -1,0 +1,27 @@
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(48, 45, 45);
+
+    a{
+        color: white;
+    }
+
+    .content-footer{
+        color: white;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        height: 100%;
+
+        .facebook, .linkedin, .github{
+            padding: 20px;
+        }
+
+        .social-media{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

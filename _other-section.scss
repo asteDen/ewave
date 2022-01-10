@@ -1,0 +1,66 @@
+#other-section{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: auto;
+
+    .experience{
+        padding: 20px;
+        h1{
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .flex-content{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+
+
+            .flex-one,.flex-two,.flex-three,.flex-four{
+                margin: 10px;
+            }
+            
+            .flex-one{
+                width: 400px;
+                height: 200px;
+                background-color: lightgrey;
+                background-image: url(image/rickAndMorty.PNG);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                a{
+                    position: absolute;
+                    bottom: 10%;
+                    padding-left: 20px;
+                    color: black;
+                    font-weight: bold;
+    
+                    &:hover{
+                        color: blue;
+                    }
+                }
+            }
+            .flex-two{
+                width: 400px;
+                height: 200px;
+                background-color: lightpink;
+                background-image: url(image/image1.PNG);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                a{
+                    position: absolute;
+                    bottom: 10%;
+                    padding-left: 20px;
+                    color: black;
+                    font-weight: bold;
+    
+                    &:hover{
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+
+
+#content-section{
+    background-color: lightcoral;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+    .content{
+        padding: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h1, h3, .text-content{
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+}
